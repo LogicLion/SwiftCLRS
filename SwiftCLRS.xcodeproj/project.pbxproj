@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		E9527BF11AE0E13600BA4364 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9527BF01AE0E13600BA4364 /* main.swift */; };
 		E9527BF81AE0E14900BA4364 /* SwiftSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9527BF71AE0E14900BA4364 /* SwiftSort.swift */; };
+		E9A5E1B81AE9D0A80043000D /* SwiftMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5E1B71AE9D0A80043000D /* SwiftMerge.swift */; };
+		E9A5E1BA1AE9D0CC0043000D /* SwiftHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5E1B91AE9D0CC0043000D /* SwiftHeap.swift */; };
+		E9A5E1BC1AE9D1B50043000D /* HeapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5E1BB1AE9D1B50043000D /* HeapNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		E9527BED1AE0E13600BA4364 /* SwiftCLRS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftCLRS; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9527BF01AE0E13600BA4364 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E9527BF71AE0E14900BA4364 /* SwiftSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSort.swift; sourceTree = "<group>"; };
+		E9A5E1B71AE9D0A80043000D /* SwiftMerge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMerge.swift; sourceTree = "<group>"; };
+		E9A5E1B91AE9D0CC0043000D /* SwiftHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHeap.swift; sourceTree = "<group>"; };
+		E9A5E1BB1AE9D1B50043000D /* HeapNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				E9527BF01AE0E13600BA4364 /* main.swift */,
 				E9527BF71AE0E14900BA4364 /* SwiftSort.swift */,
+				E9A5E1B71AE9D0A80043000D /* SwiftMerge.swift */,
+				E9A5E1B91AE9D0CC0043000D /* SwiftHeap.swift */,
+				E9A5E1BB1AE9D1B50043000D /* HeapNode.swift */,
 			);
 			path = SwiftCLRS;
 			sourceTree = "<group>";
@@ -122,6 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9527BF11AE0E13600BA4364 /* main.swift in Sources */,
+				E9A5E1BA1AE9D0CC0043000D /* SwiftHeap.swift in Sources */,
+				E9A5E1BC1AE9D1B50043000D /* HeapNode.swift in Sources */,
+				E9A5E1B81AE9D0A80043000D /* SwiftMerge.swift in Sources */,
 				E9527BF81AE0E14900BA4364 /* SwiftSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +259,7 @@
 				E9527BF61AE0E13600BA4364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

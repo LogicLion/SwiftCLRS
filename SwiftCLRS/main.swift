@@ -22,8 +22,21 @@ println(list.description)
 
 list = [3,6,1,5,2,7,4]
 
-//1,2,3,5,6,7
 
-s.MergeSort(&list, start: 0, end: list.count-1)
+var m = SwiftMerge()
+
+m.MergeSort(&list, start: 0, end: list.count-1)
+
+println(list.description)
+
+
+var n = SwiftHeap()
+
+
+    list = [4,1,3,2,16,9,10,14,8,7]
+
+n.HeapSort(&list, count:list.count)
+
+
 
 println(list.description)
